@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/saini-g/react-step-progress"
+    "url": "https://github.com/fademan01/react-step-progress"
   },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
