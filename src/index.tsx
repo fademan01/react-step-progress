@@ -146,14 +146,8 @@ function StepProgressBar(props: StepProgressProps): JSX.Element {
           {previousBtnName ? previousBtnName : 'Previous'}
         </a>
         {currentIndex === state.length - 1 ? (
-          <a
-            className={`${styles['step-action-btn']} ${styles['action-btn-primary']} ${
-              primaryBtnClass || ''
-            }`}
-            onClick={submitHandler}
-          >
-            {submitBtnName || 'Submit'}
-          </a>
+          <>        
+          </>
         ) : (
           <a
             className={`${styles['step-action-btn']} ${styles['action-btn-primary']} ${
